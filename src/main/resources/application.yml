@@ -1,0 +1,12 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+okta:
+  oauth2:
+    client-id: 0oa4v0jbhcG5k6Xf65d7
+    client-secret: 8Rjb9_ZEShrrjpcz7aTZtoFostymVrTUc4qYm3MK
+    redirect-uri: /authorization-code/callback
+    issuer: https://dev-27071816.okta.com/oauth2/default
+
+server:
+  port: 8081
